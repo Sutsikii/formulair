@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&family=Spartan:wght@700&display=swap');
+
+* {
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f7f7f7;
+}
+
+.wrapper {
+    height: 470px;
+    background: #FFF;
+    width: 350px;
+    border-radius: 16px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5)
+}
+
+.form{
+    padding: 25px 30px;
+}
+
+.form header{
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 10px;
+}
+
+.form form {
+    margin : 20px 0;
+}
+
+
+.form form .field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form form .field input {
+    outline: none;
+}
+.form form .input input {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+input {
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000;
+    padding-left:5px;
+    margin-bottom:13px;
+    margin-top: 13px;
+}
+
+#evr {
+    margin-top: 20px;
+    margin-bottom: -5px;
+    height: 50px;
+    border-radius: 50px;
+    background: #13D1B5;
+    font-size: 25px;
+    font-family: 'Spartan' ,'sans-serif';
+    color : #FFF;
+    border: none;
+}
+
